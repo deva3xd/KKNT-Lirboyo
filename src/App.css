@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.home {
+    height: 80vh;
+}
+
+.heading-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
