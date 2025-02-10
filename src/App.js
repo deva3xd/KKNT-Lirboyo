@@ -1,16 +1,18 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Profile from './components/Profile';
+import Beranda from './components/Beranda';
 import Galeri from './components/Galeri';
 import Footer from './components/Footer';
+import Sejarah from './components/Sejarah';
+import Kegiatan from './components/Kegiatan';
 
 function App() {
   return (
-    <div>
+    <div className='container mx-auto'>
       <Navbar />
-      <Home />
-      <Profile />
+      <Beranda />
+      <Sejarah />
+      <Kegiatan />
       <Galeri />
       <Footer />
     </div>

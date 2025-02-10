@@ -1,118 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family: Banthern;
+  src: url(./font/Banthern\ Demo.ttf) format(truetype);
+}
 
-.lobster-regular {
+.banthern {
+  font-family: Banthern;
+  font-style: normal;
+}
+
+.lobster {
   font-family: "Lobster", serif;
   font-weight: 400;
   font-style: normal;
 }
-.poppins-thin {
-  font-family: "Poppins", serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.poppins-extralight {
-  font-family: "Poppins", serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.poppins-light {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.poppins-regular {
-  font-family: "Poppins", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.poppins-medium {
-  font-family: "Poppins", serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.poppins-bold {
-  font-family: "Poppins", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-extrabold {
-  font-family: "Poppins", serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.poppins-black {
-  font-family: "Poppins", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.poppins-thin-italic {
-  font-family: "Poppins", serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.poppins-extralight-italic {
-  font-family: "Poppins", serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-medium-italic {
-  font-family: "Poppins", serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.poppins-bold-italic {
-  font-family: "Poppins", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.poppins-black-italic {
-  font-family: "Poppins", serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
 
 *{
     margin: 0;
@@ -121,11 +22,42 @@
     font-family: "Poppins", serif;
 }
 
-.home {
-    height: 80vh;
+.custom-nav {
+  border-bottom: 5px solid #8e1f03;
+  background-image: linear-gradient(to bottom, rgba(142, 31, 3, 0.8), rgba(204, 126, 0, 0.6));
 }
 
-.heading-title {
-    font-size: 2rem;
-    font-weight: 600;
+.stroke-1 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.stroke-2 {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.beranda {
+    height: 90vh;
+    background-image: url(./assets/image/banner.png);
+    max-height: 700px;
+  }
+  
+  .heading-title {
+    font-family: Banthern;
+    font-weight: 500;
+    background: linear-gradient(to bottom, rgba(246, 116, 76, 1), rgb(0, 0, 0));
+    background-clip: text;
+    color: transparent; 
+    -webkit-background-clip: text;
+  }
+  
+.primary-bg {
+  background-image: url(./assets/image/primary.png);
+  background-size: cover;
+}
+
+.secondary-bg {
+  background-image: url(./assets/image/secondary.png);
+  background-size: cover;
 }

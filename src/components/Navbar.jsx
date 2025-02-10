@@ -8,10 +8,10 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-custom-primary border-gray-200 dark:bg-gray-900 fixed top-0 left-0 w-screen z-50 border-b-2 border-x-white">
+        <nav className="fixed top-0 left-0 w-screen z-50 border-b-2 rounded-b-lg text-white custom-nav">
             <div className="max-w-screen-xl flex  flex-wrap items-center justify-between mx-auto p-4">
-                <a href="#home" className="self-center text-xl font-semibold whitespace-nowrap text-yellow-300 lobster-regular">
-                    Kelurahan Lirboyo
+                <a href="#beranda" className="self-center text-xl font-semibold whitespace-nowrap">
+                    KELURAHAN LIRBOYO
                 </a>
                 <button
                     data-collapse-toggle="navbar-default"
@@ -45,18 +45,34 @@ const Navbar = () => {
                     <ul className="font-medium flex flex-col md:p-0 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse">
                         <li>
                             <a
-                                href="#profile"
-                                className="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 hover:text-yellow-300"
+                                href="#beranda"
+                                className="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 hover:text-yellow-300"
                             >
-                                PROFIL
+                                Beranda
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#sejarah"
+                                className="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 hover:text-yellow-300"
+                            >
+                                Sejarah
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#kegiatan"
+                                className="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 hover:text-yellow-300"
+                            >
+                                Kegiatan
                             </a>
                         </li>
                         <li>
                             <a
                                 href="#galeri"
-                                className="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 hover:text-yellow-300"
+                                className="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 hover:text-yellow-300"
                             >
-                                GALERI
+                                Galeri
                             </a>
                         </li>
                     </ul>

@@ -10,9 +10,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'custom-primary': '#36220E',
-        'custom-secondary': '#140B06',
+        'custom-primary': '#944301',
+        'custom-secondary': '#dfb168',
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to right, #8e1f03, #954a00)',
+      }
     },
   },
   plugins: [

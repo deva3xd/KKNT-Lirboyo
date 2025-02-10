@@ -1,38 +1,33 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
-    return (
-        <footer className="bg-custom-primary  rounded-lg shadow-sm dark:bg-gray-900">
-            <div className="w-full max-w-screen-xl mx-auto p-4 sm:py-8 text-white">
-                <div className="sm:flex sm:items-center sm:justify-between">
-                    <div className="mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                        <div className='text-start sm:text-center'>
-                            <h1 className='underline text-lg sm:text-2xl font-semibold'>WAYANG JEMBLUNG</h1>
-                            <div className='text-base sm:text-xl font-light'>Lirboyo</div>
-                        </div>
-                    </div>
-                    <div>
-                        <h5 className='font-normal'>
-                            Sosial Media
-                        </h5>
-                        <ul className="flex flex-wrap items-center mb-6 text-xs sm:text-sm font-light text-white sm:mb-0">
-                            <li>
-                                <a href="#home" className="hover:underline me-4 md:me-6">Instagram</a>
-                            </li>
-                            <li>
-                                <a href="#home" className="hover:underline me-4 md:me-6">TikTok</a>
-                            </li>
-                            <li>
-                                <a href="#home" className="hover:underline me-4 md:me-6">Youtube</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <hr className="my-6 border-gray-200 sm:mx-auto" />
-                <span className="block text-xs sm:text-sm sm:text-center font-extralightlight">Copyright © 2025 - KKNT Kelompok 8</span>
+  return (
+    <footer className="shadow-sm primary-bg">
+      <div className="w-full max-w-screen-xl mx-auto text-white">
+        <div className="py-6 sm:mb-0 space-x-3 rtl:space-x-reverse text-center text-black">
+          <h2 className="banthern text-2xl sm:text-5xl text-custom-primary font-bold">
+            Wayang Jemblung Lirboyo
+          </h2>
+          <div className="text-sm sm:text-lg font-bold">
+            <p>Cintai dan Lestarikan Budata Lokal Indonesia</p>
+          </div>
+          <div className="text-xs sm:text-sm font-medium">
+            <p>Sosial Media :</p>
+            <div className="flex justify-center">
+              <p>Instagram</p>
+              <p>Tiktok</p>
             </div>
-        </footer>
-    )
-}
+          </div>
+        </div>
+        <span
+          className="block text-xs sm:text-sm sm:text-semibold bg-slate-900 py-3 bg-custom-gradient text-center"
+          style={{ color: "#eebe88" }}
+        >
+          Copyright by KKN 08 Lirboyo 2025
+        </span>
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;

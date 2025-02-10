@@ -7,10 +7,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Galeri = () => {
   return (
-    <div className='bg-white mt-3' id="galeri">
-      <h2 className='heading-title text-center'>GALERI</h2>
+    <div className='secondary-bg pt-20' id="galeri">
+      <h2 className='heading-title text-center text-4xl sm:text-6xl'>Galeri</h2>
       <div className='flex flex-col md:flex-row justify-center items-center'>
-        <div className='w-full md:w-5/6 flex justify-center mb-3'>
+        <div className='w-full md:w-5/6 flex justify-center mb-3 p-5'>
           <Swiper
             spaceBetween={50}
             loop={true}
@@ -27,61 +27,61 @@ const Galeri = () => {
             }}
           >
             <SwiperSlide>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
                 <a href="#home">
                   <img className="rounded-t-lg" src={Photo1} alt="" />
                 </a>
-                <div className="p-5">
+                <div className="p-3">
                   <a href="#home">
-                    <h5 className="mb-2 text-lg sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Photo 1</h5>
+                    <h5 className="text-xl font-medium tracking-tight text-gray-900 dark:text-white text-center">Photo 1</h5>
                   </a>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
                 <a href="#home">
                   <img className="rounded-t-lg" src={Photo2} alt="" />
                 </a>
-                <div className="p-5">
+                <div className="p-3">
                   <a href="#home">
-                    <h5 className="mb-2 text-lg sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Photo 2</h5>
+                    <h5 className="text-xl font-medium tracking-tight text-gray-900 dark:text-white text-center">Photo 2</h5>
                   </a>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
                 <a href="#home">
                   <img className="rounded-t-lg" src={Photo3} alt="" />
                 </a>
-                <div className="p-5">
+                <div className="p-3">
                   <a href="#home">
-                    <h5 className="mb-2 text-lg sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Photo 3</h5>
+                    <h5 className="text-xl font-medium tracking-tight text-gray-900 dark:text-white text-center">Photo 3</h5>
                   </a>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
                 <a href="#home">
                   <img className="rounded-t-lg" src={Photo3} alt="" />
                 </a>
-                <div className="p-5">
+                <div className="p-3">
                   <a href="#home">
-                    <h5 className="mb-2 text-lg sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Photo 3</h5>
+                    <h5 className="text-xl font-medium tracking-tight text-gray-900 dark:text-white text-center">Photo 3</h5>
                   </a>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
                 <a href="#home">
                   <img className="rounded-t-lg" src={Photo3} alt="" />
                 </a>
-                <div className="p-5">
+                <div className="p-3">
                   <a href="#home">
-                    <h5 className="mb-2 text-lg sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Photo 3</h5>
+                    <h5 className="text-xl font-medium tracking-tight text-gray-900 dark:text-white text-center">Photo 3</h5>
                   </a>
                 </div>
               </div>
