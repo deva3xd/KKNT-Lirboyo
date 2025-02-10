@@ -5,6 +5,7 @@ import Galeri from './components/Galeri';
 import Footer from './components/Footer';
 import Sejarah from './components/Sejarah';
 import Kegiatan from './components/Kegiatan';
+import Button from './components/Button';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Kegiatan />
       <Galeri />
       <Footer />
+      <Button />
     </div>
   );
 }
