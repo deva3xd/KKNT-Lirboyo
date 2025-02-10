@@ -1,4 +1,6 @@
 import React from "react";
+import Instagram from '../assets/icon/instagram.png';
+import Tiktok from '../assets/icon/tiktok.png';
 
 const Footer = () => {
   return (
@@ -14,8 +16,14 @@ const Footer = () => {
           <div className="text-xs sm:text-sm font-medium">
             <p>Sosial Media :</p>
             <div className="flex justify-center">
-              <p>Instagram</p>
-              <p>Tiktok</p>
+              <div className="mx-2 flex items-center gap-1">
+                <img src={Instagram} alt="instagram" className="w-4" />
+                <p>kknt08_lirboyo</p>
+              </div>
+              <div className="mx-2 flex items-center gap-1">
+                <img src={Tiktok} alt="tiktok" className="w-5" />
+                <p>kknt08_lirboyo</p>
+              </div>
             </div>
           </div>
         </div>
