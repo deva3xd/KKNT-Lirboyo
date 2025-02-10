@@ -1,8 +1,8 @@
 import "swiper/css";
 import React from "react";
-import Gambar1 from "../assets/image/1.png";
-import Gambar2 from "../assets/image/2.png";
-import Gambar3 from "../assets/image/3.png";
+import Gambar1 from "../assets/image/sejarah/1.png";
+import Gambar2 from "../assets/image/sejarah/2.png";
+import Gambar3 from "../assets/image/sejarah/3.png";
 
 const Sejarah = () => {
   return (

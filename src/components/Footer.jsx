@@ -9,7 +9,7 @@ const Footer = () => {
             Wayang Jemblung Lirboyo
           </h2>
           <div className="text-sm sm:text-lg font-bold">
-            <p>Cintai dan Lestarikan Budata Lokal Indonesia</p>
+            <p>Cintai dan Lestarikan Budaya Lokal Indonesia</p>
           </div>
           <div className="text-xs sm:text-sm font-medium">
             <p>Sosial Media :</p>

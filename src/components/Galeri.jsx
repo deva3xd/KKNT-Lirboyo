@@ -1,96 +1,52 @@
 import 'swiper/css';
-import React from 'react';
-import Photo1 from '../assets/image/photo1.jpg';
-import Photo2 from '../assets/image/photo2.jpg';
-import Photo3 from '../assets/image/photo3.jpg';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React, { useState } from 'react';
+import Gambar1 from '../assets/image/galeri/1.jpg';
+import Gambar2 from '../assets/image/galeri/2.jpg';
+import Gambar3 from '../assets/image/galeri/3.jpg';
+import Gambar4 from '../assets/image/galeri/4.jpg';
+import Gambar5 from '../assets/image/galeri/5.jpg';
+import Gambar6 from '../assets/image/galeri/6.jpg';
 
 const Galeri = () => {
+  const [showMore, setShowMore] = useState(false); 
+
+  const cards = [
+    { id: 1, imageSrc: Gambar1 },
+    { id: 2, imageSrc: Gambar2 },
+    { id: 3, imageSrc: Gambar3 },
+    { id: 4, imageSrc: Gambar4 },
+    { id: 5, imageSrc: Gambar5 },
+    { id: 6, imageSrc: Gambar6 },
+  ];
+
+  const handleShowMore = () => {
+    setShowMore(!showMore);
+  };
+
   return (
-    <div className='secondary-bg pt-20' id="galeri">
-      <h2 className='heading-title text-center text-4xl sm:text-6xl'>Galeri</h2>
-      <div className='flex flex-col md:flex-row justify-center items-center'>
-        <div className='w-full md:w-5/6 flex justify-center mb-3 p-5'>
-          <Swiper
-            spaceBetween={50}
-            loop={true}
-            breakpoints={{
-              640: {
-                slidesPerView: 1,
-              },
-              768: {
-                slidesPerView: 2,
-              },
-              1024: {
-                slidesPerView: 3, 
-              },
-            }}
-          >
-            <SwiperSlide>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
-                <a href="#home">
-                  <img className="rounded-t-lg" src={Photo1} alt="" />
-                </a>
-                <div className="p-3">
-                  <a href="#home">
-                    <h5 className="text-xl font-medium tracking-tight text-gray-900 dark:text-white text-center">Photo 1</h5>
-                  </a>
-                </div>
+    <div className="secondary-bg pt-20" id="galeri">
+      <h2 className="heading-title text-center text-4xl sm:text-6xl">Galeri</h2>
+      <div className="flex flex-col sm:flex-row justify-center items-center">
+        <div className="w-full sm:w-5/6 flex justify-center p-5">
+          <div className="grid grid-cols-3 sm:grid-cols-3 gap-4">
+            {cards.slice(0, showMore ? cards.length : 3).map((card) => (
+              <div key={card.id}>
+                <img className="rounded-lg w-full h-auto" src={card.imageSrc} alt={`Gambar ${card.id}`} />
               </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
-                <a href="#home">
-                  <img className="rounded-t-lg" src={Photo2} alt="" />
-                </a>
-                <div className="p-3">
-                  <a href="#home">
-                    <h5 className="text-xl font-medium tracking-tight text-gray-900 dark:text-white text-center">Photo 2</h5>
-                  </a>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
-                <a href="#home">
-                  <img className="rounded-t-lg" src={Photo3} alt="" />
-                </a>
-                <div className="p-3">
-                  <a href="#home">
-                    <h5 className="text-xl font-medium tracking-tight text-gray-900 dark:text-white text-center">Photo 3</h5>
-                  </a>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
-                <a href="#home">
-                  <img className="rounded-t-lg" src={Photo3} alt="" />
-                </a>
-                <div className="p-3">
-                  <a href="#home">
-                    <h5 className="text-xl font-medium tracking-tight text-gray-900 dark:text-white text-center">Photo 3</h5>
-                  </a>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
-                <a href="#home">
-                  <img className="rounded-t-lg" src={Photo3} alt="" />
-                </a>
-                <div className="p-3">
-                  <a href="#home">
-                    <h5 className="text-xl font-medium tracking-tight text-gray-900 dark:text-white text-center">Photo 3</h5>
-                  </a>
-                </div>
-              </div>
-            </SwiperSlide>
-          </Swiper>
+            ))}
+          </div>
         </div>
       </div>
+      <div className="mx-5">
+        <button
+          onClick={handleShowMore}
+          className="text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mb-2"
+        >
+          {showMore ? "Lebih Sedikit" : "Lebih Banyak"}
+        </button>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Galeri;
