@@ -1,6 +1,8 @@
 import "swiper/css";
-import React from "react";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import React from "react";
 import Photo1 from "../assets/image/kegiatan/1.jpg";
 import Photo2 from "../assets/image/kegiatan/2.jpg";
 
@@ -15,6 +17,9 @@ const Kegiatan = () => {
           <Swiper
             spaceBetween={50}
             loop={true}
+            pagination={{
+              clickable: true,
+            }}
             breakpoints={{
               640: {
                 slidesPerView: 1,
@@ -26,12 +31,17 @@ const Kegiatan = () => {
                 slidesPerView: 3,
               },
             }}
+            modules={[Pagination]}
           >
             <SwiperSlide>
               <div className="max-w-sm  rounded-lg">
                 <img className="rounded-t-lg" src={Photo1} alt="" />
                 <div className="py-2 flex justify-center">
-                  <a href="https://drive.google.com/drive/folders/1RYniHhnCbyhq_3JjPdZqK4Sp3Kmbj-mS" target="blank" class="w-full text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2">
+                  <a
+                    href="https://drive.google.com/drive/folders/1RYniHhnCbyhq_3JjPdZqK4Sp3Kmbj-mS"
+                    target="blank"
+                    class="w-full text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-7"
+                  >
                     Sosialisasi Wayang Jemblung
                   </a>
                 </div>
@@ -41,7 +51,11 @@ const Kegiatan = () => {
               <div className="max-w-sm  rounded-lg">
                 <img className="rounded-t-lg" src={Photo2} alt="" />
                 <div className="py-2 flex justify-center">
-                  <a href="https://drive.google.com/drive/folders/1RYniHhnCbyhq_3JjPdZqK4Sp3Kmbj-mS" target="blank" class="w-full text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2">
+                  <a
+                    href="https://drive.google.com/drive/folders/1RYniHhnCbyhq_3JjPdZqK4Sp3Kmbj-mS"
+                    target="blank"
+                    class="w-full text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-7"
+                  >
                     Senam Sehat Warga Lirboyo
                   </a>
                 </div>
@@ -51,7 +65,11 @@ const Kegiatan = () => {
               <div className="max-w-sm  rounded-lg">
                 <img className="rounded-t-lg" src={Photo1} alt="" />
                 <div className="py-2 flex justify-center">
-                  <a href="https://drive.google.com/drive/folders/1RYniHhnCbyhq_3JjPdZqK4Sp3Kmbj-mS" target="blank" class="w-full text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2">
+                  <a
+                    href="https://drive.google.com/drive/folders/1RYniHhnCbyhq_3JjPdZqK4Sp3Kmbj-mS"
+                    target="blank"
+                    class="w-full text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-7"
+                  >
                     Pagelaran Wayang Jemblung
                   </a>
                 </div>

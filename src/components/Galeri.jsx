@@ -28,7 +28,7 @@ const Galeri = () => {
       <h2 className="heading-title text-center text-4xl sm:text-6xl">Galeri</h2>
       <div className="flex flex-col sm:flex-row justify-center items-center">
         <div className="w-full sm:w-5/6 flex justify-center p-5">
-          <div className="grid grid-cols-3 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {cards.slice(0, showMore ? cards.length : 3).map((card) => (
               <div key={card.id}>
                 <img className="rounded-lg w-full h-auto" src={card.imageSrc} alt={`Gambar ${card.id}`} />
