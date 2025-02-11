@@ -40,7 +40,7 @@ const Galeri = () => {
       <div className="mx-5">
         <button
           onClick={handleShowMore}
-          className="text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mb-2"
+          className="w-full sm:w-2/12 text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mb-2"
         >
           {showMore ? "Lebih Sedikit" : "Lebih Banyak"}
         </button>
