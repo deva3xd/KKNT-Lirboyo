@@ -9,9 +9,9 @@ const Navbar = () => {
 
     return (
         <nav className="fixed top-0 left-0 w-screen z-50 border-b-2 rounded-b-lg text-white custom-nav">
-            <div className="max-w-screen-xl flex  flex-wrap items-center justify-between mx-auto p-4">
-                <a href="#beranda" className="self-center text-xl font-semibold whitespace-nowrap">
-                    KELURAHAN LIRBOYO
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="#beranda" className="self-center font-semibold whitespace-nowrap text-base">
+                    WAYANG JEMBLUNG
                 </a>
                 <button
                     data-collapse-toggle="navbar-default"
@@ -39,7 +39,7 @@ const Navbar = () => {
                     </svg>
                 </button>
                 <div
-                    className={`w-full md:block md:w-auto ${isOpen ? 'block' : 'hidden'}`}
+                    className={`w-full md:block md:w-auto text-base ${isOpen ? 'block' : 'hidden'}`}
                     id="navbar-default"
                 >
                     <ul className="font-medium flex flex-col md:p-0 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse">

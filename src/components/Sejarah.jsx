@@ -6,7 +6,7 @@ import Gambar3 from "../assets/image/sejarah/3.png";
 
 const Sejarah = () => {
   return (
-    <div className="secondary-bg pt-20" id="sejarah">
+    <div className="secondary-bg pt-20 pb-1" id="sejarah">
       <div className="text-center">
         <h2
           className="text-gray-800 banthern text-3xl sm:text-5xl"
@@ -18,9 +18,9 @@ const Sejarah = () => {
             Wayang Jemblung
           </span>
         </h2>
-        <div className="mt-5 px-5 flex flex-col-reverse md:flex-row">
-          <div className="w-full md:w-1/2">
-            <p className="text-center md:text-start px-6 text-sm sm:text-lg">
+        <div className="mt-5 px-5 flex flex-col-reverse lg:flex-row">
+          <div className="w-full lg:w-1/2">
+            <p className="text-center lg:text-end px-6 text-sm lg:text-base">
               Wayang jemblung adalah seni teater tradisional dari Jawa Timur,
               khususnya Kediri dan sekitarnya, yang menggabungkan cerita
               pewayangan dengan musik, dialog, dan tembang Jawa. Berbeda dari
@@ -29,16 +29,16 @@ const Sejarah = () => {
               dan kostum sederhana.
             </p>
           </div>
-          <div className="flex justify-center w-full md:w-1/2">
-            <img src={Gambar1} alt="Gambar 1" className="w-5/6" />
+          <div className="flex justify-center w-full lg:w-1/2">
+            <img src={Gambar1} alt="Gambar 1" className="w-4/6" />
           </div>
         </div>
-        <div className="mt-5 px-5 flex flex-col md:flex-row">
-          <div className="flex justify-center w-full md:w-1/2">
-            <img src={Gambar2} alt="Gambar 2" className="w-5/6" />
+        <div className="mt-5 px-5 flex flex-col lg:flex-row">
+          <div className="flex justify-center w-full lg:w-1/2">
+            <img src={Gambar2} alt="Gambar 2" className="w-4/6" />
           </div>
-          <div className="w-full md:w-1/2">
-            <p className="text-center md:text-start px-6 text-sm sm:text-lg">
+          <div className="w-full lg:w-1/2">
+            <p className="text-center lg:text-start px-6 text-sm lg:text-base">
               Pertunjukan wayang jemblung menekankan aspek lisan, dengan iringan
               musik yang dibawakan secara vokal. Awalnya, kesenian in digunakan
               dalam ritual selamatkan bayi, tetapi kemudian berkembang menjadi
@@ -48,9 +48,9 @@ const Sejarah = () => {
             </p>
           </div>
         </div>
-        <div className="mt-5 px-5 flex flex-col-reverse md:flex-row">
-          <div className="w-full md:w-1/2">
-            <p className="text-center md:text-start px-6 text-sm sm:text-lg">
+        <div className="mt-5 px-5 flex flex-col-reverse lg:flex-row">
+          <div className="w-full lg:w-1/2">
+            <p className="text-center lg:text-end px-6 text-sm lg:text-base">
               Dalam perkembangannya, wayang jemblung mengalami berbagai
               modifikasi, seperti penggunaan gamelan di Blitar dan penggabungan
               dengan seni reog di Ponorogo untuk menarik minat masyarakat. Seni
@@ -61,8 +61,8 @@ const Sejarah = () => {
               tradisi lokal.
             </p>
           </div>
-          <div className="flex justify-center w-full md:w-1/2">
-            <img src={Gambar3} alt="Gambar 3" className="w-5/6" />
+          <div className="flex justify-center w-full lg:w-1/2">
+            <img src={Gambar3} alt="Gambar 3" className="w-4/6" />
           </div>
         </div>
       </div>
