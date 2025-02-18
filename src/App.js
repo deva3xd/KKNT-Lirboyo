@@ -4,7 +4,7 @@ import Beranda from './components/Beranda';
 import Galeri from './components/Galeri';
 import Footer from './components/Footer';
 import Sejarah from './components/Sejarah';
-import Kegiatan from './components/Kegiatan';
+import Profil from './components/Profil';
 import Button from './components/Button';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Beranda />
       <Sejarah />
-      <Kegiatan />
+      <Profil />
       <Galeri />
       <Footer />
       <Button />

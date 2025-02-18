@@ -31,9 +31,9 @@ const Navbar = () => {
                     >
                         <path
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d={isOpen ? "M1 13l15-12M1 1l15 12" : "M1 1h15M1 7h15M1 13h15"}
                         />
                     </svg>
@@ -61,10 +61,10 @@ const Navbar = () => {
                         </li>
                         <li>
                             <a
-                                href="#kegiatan"
+                                href="#profil"
                                 className="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 hover:text-yellow-300"
                             >
-                                Kegiatan
+                                Profil
                             </a>
                         </li>
                         <li>
