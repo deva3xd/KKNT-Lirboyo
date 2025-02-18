@@ -46,7 +46,7 @@ const Profil = () => {
       </div>
 
       {/* jumlah penduduk */}
-      <div className="secondary-bg  py-8">
+      <div className="secondary-bg  pt-8 pb-3">
         <h2
           className="text-gray-800 banthern text-3xl sm:text-5xl text-center mb-4"
           style={{ fontWeight: "500" }}
@@ -59,7 +59,7 @@ const Profil = () => {
               <div className="flex justify-center">
                 <img src={Male} alt="male" className="w-3/4" />
               </div>
-              <p className="text-xs sm:text-base">3.108 Pria</p>
+              <p className="text-xs sm:text-lg">3.108 Pria</p>
             </div>
           </div>
           <div className="w-2/6 flex justify-center">
@@ -67,7 +67,7 @@ const Profil = () => {
               <div className="flex justify-center">
                 <img src={Populate} alt="populate" className="w-3/4" />
               </div>
-              <p className="text-xs sm:text-base">6.002 Penduduk</p>
+              <p className="text-xs sm:text-lg">6.002 Penduduk</p>
             </div>
           </div>
           <div className="w-2/6 flex justify-center">
@@ -75,7 +75,7 @@ const Profil = () => {
               <div className="flex justify-center">
                 <img src={Female} alt="female" className="w-3/4" />
               </div>
-              <p className="text-xs sm:text-base">2.892 Wanita</p>
+              <p className="text-xs sm:text-lg">2.892 Wanita</p>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ const Profil = () => {
       {/* fasilitas umum */}
       <div className="primary-bg">
         <h2
-          className="text-gray-800 banthern text-3xl sm:text-5xl text-center py-8"
+          className="text-gray-800 banthern text-3xl sm:text-5xl text-center pt-8 pb-3"
           style={{ fontWeight: "500" }}
         >
           Fasilitas Umum
