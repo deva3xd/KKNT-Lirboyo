@@ -27,7 +27,7 @@ const Footer = () => {
               </div>
               <div className="mx-1 flex items-center gap-1">
                 <img src={Youtube} alt="tiktok" className="w-5" />
-                <p>kknt08_lirboyo</p>
+                <p>proff Jim</p>
               </div>
             </div>
           </div>

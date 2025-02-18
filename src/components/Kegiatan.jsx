@@ -37,25 +37,11 @@ const Kegiatan = () => {
                 <img className="rounded-t-lg" src={Photo3} alt="" />
                 <div className="py-2 flex justify-center">
                   <a
-                    href="https://drive.google.com/drive/folders/1SdwF89J1AcEg5PE_bP8kjQRCGO4elTqv?usp=drive_link"
+                    href="#beranda"
                     target="blank"
                     class="w-full text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-5 py-2.5 text-center mb-7"
                   >
-                    Sosialisasi Wayang Jemblung
-                  </a>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="max-w-sm rounded-lg">
-                <img className="rounded-t-lg" src={Photo3} alt="" />
-                <div className="py-2 flex justify-center">
-                  <a
-                    href="https://drive.google.com/drive/folders/1Spa4Ur11ohJBCAdXSHtMiJXj-QpfQR1g?usp=drive_link"
-                    target="blank"
-                    class="w-full text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-5 py-2.5 text-center mb-7"
-                  >
-                    Senam Sehat Warga Lirboyo
+                    Latihan
                   </a>
                 </div>
               </div>
@@ -66,10 +52,24 @@ const Kegiatan = () => {
                 <div className="py-2 flex justify-center">
                   <a
                     href="#beranda"
-                    // target="blank"
+                    target="blank"
                     class="w-full text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-5 py-2.5 text-center mb-7"
                   >
-                    Pagelaran Wayang Jemblung
+                    Pembuatan Wayang
+                  </a>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="max-w-sm rounded-lg">
+                <img className="rounded-t-lg" src={Photo3} alt="" />
+                <div className="py-2 flex justify-center">
+                  <a
+                    href="#beranda"
+                    target="blank"
+                    class="w-full text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 border-2 border-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-5 py-2.5 text-center mb-7"
+                  >
+                    Sosialisasi Wayang Jemblung
                   </a>
                 </div>
               </div>
