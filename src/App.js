@@ -9,7 +9,7 @@ import Button from './components/Button';
 
 function App() {
   return (
-    <div className='container mx-auto'>
+    <div className='2xl:container mx-auto'>
       <Navbar />
       <Beranda />
       <Sejarah />
